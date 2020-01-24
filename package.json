@@ -14,10 +14,13 @@
     "express": "^4.17.1",
     "express-pino-logger": "^4.0.0",
     "module-alias": "^2.2.2",
-    "mysql2": "^2.1.0"
+    "mysql2": "^2.1.0",
+    "promise-mysql": "^4.1.1"
   },
   "_moduleAliases": {
     "@root": ".",
-    "@config": "config"
+    "@common": "modules/common",
+    "@config": "config",
+    "@product": "modules/product"
   }
 }
