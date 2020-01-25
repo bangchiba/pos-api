@@ -2,18 +2,12 @@ FROM node:10-alpine
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
-
-RUN npm install -g nodemon
-
-RUN npm install -g sequelize
-
-RUN npm install -g sequelize-cli
-
-RUN npm install
-
 COPY . .
+
+RUN npm install -g nodemon mysql2 sequelize sequelize-cli
+
+RUN mkdir data
 
 EXPOSE 3000
 
-CMD ["nodemon"]
+ENTRYPOINT npm install && nodemon
