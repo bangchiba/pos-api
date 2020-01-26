@@ -10,7 +10,6 @@ module.exports = {
       },
       customer_id: Sequelize.INTEGER,
       date_time: Sequelize.DATE
-
     });
   },
 

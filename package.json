@@ -22,6 +22,7 @@
     "@root": ".",
     "@common": "modules/common",
     "@config": "config",
+    "@customer": "modules/customer",
     "@product": "modules/product"
   }
 }

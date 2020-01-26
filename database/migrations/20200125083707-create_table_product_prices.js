@@ -8,6 +8,7 @@ module.exports = {
         primaryKey: true,
         autoIncrement: true
       },
+      product_id: Sequelize.INTEGER,
       min: Sequelize.INTEGER,
       max: Sequelize.INTEGER,
       price: Sequelize.FLOAT,

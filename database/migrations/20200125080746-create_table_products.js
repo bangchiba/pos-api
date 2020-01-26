@@ -9,6 +9,7 @@ module.exports = {
         autoIncrement: true,
       },
       name: Sequelize.STRING,
+      sub_categori_id: Sequelize.INTEGER
     });
     
   },
