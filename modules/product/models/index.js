@@ -2,7 +2,7 @@ const DBService = require('@common/services/db.common.service.js');
 
 class ProductModel {
   constructor() {
-    this.table = 'product';
+    this.table = 'products';
     this.dbService = new DBService;
   }
 

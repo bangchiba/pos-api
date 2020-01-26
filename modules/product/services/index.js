@@ -3,11 +3,12 @@ const ProductModel = require("@product/models");
 class ProductService {
   constructor() {
     this.productModel = new ProductModel();
-    this.schema = {};
   }
 
-  async index(query) {
-    return {}
+  async index() {
+    const data = await this.productModel.index()
+
+    return { data }
   }
 }
 
