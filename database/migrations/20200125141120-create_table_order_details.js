@@ -11,7 +11,7 @@ module.exports = {
       order_id: Sequelize.INTEGER,
       product_id: Sequelize.INTEGER,
       quantity: Sequelize.INTEGER,
-      price: Sequelize.INTEGER,
+      price: Sequelize.FLOAT,
     });
   },
 
